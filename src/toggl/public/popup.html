@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>toggl formatter</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+    <div class="app">
+        <label>
+            APIKEY: <input id="api-key" type="text">
+        </label>
+        <label>
+            workspace ID: <input id="workspace-key" type="text">
+        </label>
+        <button class="button save-button" id="save-button">保存</button>
+        <button class="button" id="format-button">今日のtogglを取得</button>
+        <textarea id="result"></textarea>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
